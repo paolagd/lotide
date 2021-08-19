@@ -2,7 +2,7 @@
 // Otherwise you get back a big fat false!
 
 const eqObjects = function (object1, object2) {
-  //Verify if both objects have as many keys
+  //Verifies if both objects have as many keys
   if (Object.keys(object1).length !== Object.keys(object2).length) return false;
 
   for (const key in object1) {
