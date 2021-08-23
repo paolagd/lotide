@@ -14,10 +14,8 @@ const countLetters = function (string) {
 }
 
 
-const test = () =>{
-  var result = countLetters("lighthouse in the house");
-  console.log(result);
-  assertEqual(result["n"], 1);
-}
+var result = countLetters("lighthouse in the house");
+console.log(result);
+assertEqual(result["n"], 1);
 
 module.exports = countLetters;

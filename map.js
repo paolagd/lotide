@@ -8,11 +8,11 @@ const map = function (array, callback) {
   return results;
 }
 
-// const words = ["2round", "control", "to", "major", "tom"];
-// const results1 = map(words, word => word[0]);
+const words = ["2round", "control", "to", "major", "tom"];
+const results1 = map(words, word => word[0]);
 
-// console.log(results1);
+console.log(results1);
 
-// assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']);
+assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']);
 
 module.exports = map;

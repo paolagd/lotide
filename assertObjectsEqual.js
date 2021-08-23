@@ -12,13 +12,10 @@ const assertObjectsEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: [${inspect(actual)}] !== [${inspect(expected)}]`);
   }
 };
-
-const test = () => {
-  const ab = { a: "1", b: "2" };
-  const ba = { b: "2", a: "1" };
-  const cd2 = { c: "1", d: ["2", 3, 4] };
-  console.log(assertObjectsEqual(ab,ba));  
+ 
+const ab = { a: "1", b: "2" };
+const ba = { b: "2", a: "1" };
+const cd2 = { c: "1", d: ["2", 3, 4] };
+console.log(assertObjectsEqual(ab,ba));  
    
-}
-
 module.exports = assertArraysEqual;

@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@paolagd/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "Javascript Library with multiple functions to manage and work with Arrays and Objects similar to Lodash",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -14,7 +14,9 @@
     "url": "git+https://github.com/paolagd/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name" : "Paola Garcia" 
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/paolagd/lotide/issues"
