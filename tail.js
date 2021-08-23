@@ -1,4 +1,4 @@
-const tail = (array) => { 
+const tail = (array) => {
   return array.slice(1);
 };
 
