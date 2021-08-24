@@ -13,7 +13,6 @@ const countLetters = function (string) {
   return result;
 }
 
-
 var result = countLetters("lighthouse in the house");
 console.log(result);
 assertEqual(result["n"], 1);
